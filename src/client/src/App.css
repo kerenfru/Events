@@ -1,0 +1,59 @@
+.App {
+
+}
+
+.MainContainer {
+    width: 73%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    background-color: #222B38;
+}
+
+.title {
+    font-size: 17px;
+    color: white;
+    padding: 16px;
+}
+
+.select {
+    color: white;
+    padding: 20px 16px;
+}
+
+td.MuiTableCell-root, th.MuiTableCell-root {
+    border-bottom-width: 2px;
+}
+
+body {
+    background-color: #161b23;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+}
+
+.App-link {
+    color: #003948;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
